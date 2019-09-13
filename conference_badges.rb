@@ -1,5 +1,5 @@
-def badge_maker (name)
-  return "hello, my name is #{name}."  
+def badge_maker(name)
+  return "Hello, my name is #{name}."  
 end
 
 def assign_rooms
