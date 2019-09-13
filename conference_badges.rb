@@ -3,10 +3,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.each { |name| badge_maker(name)}
+  names.map { |name| badge_maker(name)}
 end
   
 def assign_rooms (speaker)
-  speaker.each_with_index { |name, num| "Hello, #{speaker}! You'll be assigned to room #{num}" }
+  speaker.map_with_index { |name, num| "Hello, #{speaker}! You'll be assigned to room #{num}" }
   
 end
